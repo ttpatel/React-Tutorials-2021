@@ -22,6 +22,17 @@ import Table from './components/Table';
 import Pure1Component from './components/Pure1Component';
 import RefsDemo from './components/RefsDemo';
 import FRParentInput from './components/FRParentInput'
+import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+import ClcikCounter from './components/ClcikCounter';
+import HoverCounter from './components/HoverCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
+import Users from './components/Users';
+import CounterTwo from './components/CounterTwo'
+import ComponentC from './components/ComponentC'
+import { UserProvider } from './components/userContext';
 function App() {
   return (
     <div className="App">
@@ -53,7 +64,31 @@ function App() {
       {/* <Table/> */}
       {/* <PureComponent/> */}
       {/* <RefsDemo/> */}
-      <FRParentInput/>
+      {/* <FRParentInput/> */}
+      {/* <PortalDemo/> */}
+      {/* <Hero heroname='Batman'/>
+      <Hero heroname='Superman'/>
+      <ErrorBoundary>
+      <Hero heroname='Joker'/>
+      </ErrorBoundary> */}
+      {/* <ClcikCounter/> */}
+      {/* <HoverCounter/> */}
+      {/* <ClickCounterTwo/> */}
+      {/* <HoverCounterTwo/> */}
+      {/* <Users render={(isLoggedIn) => isLoggedIn ? 'teerth' : 'Guest'} />
+      <CounterTwo
+        render={(count, incrementCount) => (
+          <ClickCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      />
+      <CounterTwo
+        render={(count, incrementCount) => (
+          <HoverCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      /> */}
+      {/* <UserProvider value='tirthpatel'>
+        <ComponentC />
+      </UserProvider> */}
     </div>
   );
 }
