@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
 import Greet from './components/Greet(T-5)'
 import Welcome from './components/Welcome(T6)'
